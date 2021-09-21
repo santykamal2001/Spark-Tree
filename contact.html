@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/834/834357.png" type="image/jpg" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-size: cover;
+      font-family: 'Raleway', sans-serif;
+      }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #3fdd61;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #279c45;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: rgb(88, 164, 235);
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Contact Us:</h1>
+  <h3>Contact Form</h3>
+
+  <div class="container">
+    <form class="cont" action="mail to:FourPawsFoundation@gmail.com" method="post" enctype="text/plain">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Enter Your Firstname" />
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Enter Your Lastname" />
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="USA">USA</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="London">London</option>
+        <option value="Germany">Germany</option>
+        <option value="Japan">Japan</option>
+        <option value="Bangladesh">Bangladesh</option>
+      </select>
+
+      <label for="subject">For Complaints , Queries and Doubts</label>
+      <textarea id="subject" name="subject" placeholder="Write to Us" style="height: 200px"></textarea>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+
+</html>

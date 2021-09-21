@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fill,f_auto,fl_progressive,h_533,q_auto,w_800/v1428564288/article/R10141_image1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+nav {
+  width: 100%;
+  height: 6.5vh;
+  background: rgba(49, 48, 49, 0.384);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav .logo {
+  width: 25%;
+  text-align: center;
+  color: #fff;
+  float: left;
+  font-size: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav .menu {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav .menu a {
+  width: 25%;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+section h3 {
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Raleway", sans-serif;
+}
+section h1 {
+  margin: 30px 0 20px 0;
+
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+section p {
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Nunito", sans-serif;
+}
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+section .btntwo {
+  background: rgb(44, 44, 153);
+  color: white;
+  padding:8px 5px;
+}
+section .btntwo:hover{
+  background-color: rgb(38, 132, 240);
+}
+nav.menu a:first-child {
+  color: #00b894;
+}
